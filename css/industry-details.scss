@@ -1,0 +1,28 @@
+.industry-details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    h3{
+        font-size: 26px
+    }
+
+    .btn-outline-primary{
+        color: black;
+        border: 1px solid #002D3C;
+        border-radius: 16px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn:hover{
+        background: #002D3C;
+        color: white;
+
+        .slanting-arrow{
+            filter: brightness(1);
+        }
+    }
+}

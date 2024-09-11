@@ -1,0 +1,29 @@
+.awards {
+    background-image: url("../images/awards.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    color: #000;
+
+    h2 {
+        padding-top: 50px;
+      }
+      
+    .awards-content {
+        padding: 50px 50px 0 0;
+
+        .awards-details {
+            text-align: center;
+    
+            img {
+                margin-bottom: 27px;
+            }
+              
+            p {
+                padding: 0;
+            }
+        }
+      }
+  }
+  
+ 

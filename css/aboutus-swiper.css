@@ -1,0 +1,59 @@
+.scroll-icon {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 0 20px;
+  width: 240px;
+  height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.scroll-icon .swiper-button-prev, .scroll-icon .swiper-button-next {
+  position: static;
+  color: black;
+  transform: translateY(11px);
+  max-height: 100%;
+}
+.scroll-icon .swiper-button-next:after, .scroll-icon .swiper-button-prev:after {
+  font-size: 12px;
+  font-weight: bold;
+}
+.scroll-icon .swiper-pagination {
+  bottom: auto !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.scroll-icon .swiper-pagination .swiper-pagination-bullet {
+  background: black;
+  opacity: 1;
+  width: 16px;
+  border-radius: 4px;
+}
+.scroll-icon .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: white !important;
+}
+.scroll-icon .carousel-indicators {
+  margin: 0;
+  bottom: auto;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+}
+.scroll-icon .carousel-indicators .active {
+  background-color: white;
+}
+.scroll-icon .carousel-indicators button {
+  height: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 1;
+}/*# sourceMappingURL=aboutus-swiper.css.map */

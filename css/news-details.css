@@ -1,0 +1,15 @@
+.news-about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+.news-about-us .news-details {
+  background: lightgrey;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+}/*# sourceMappingURL=news-details.css.map */

@@ -1,0 +1,99 @@
+.navbar {
+  padding: 0;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1490196078);
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar a img {
+  width: 150px;
+}
+.navbar .bg-body-tertiary {
+  padding: 20px 0;
+}
+.navbar .justify-content-end {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.navbar .justify-content-end a:hover {
+  border-bottom: 3px solid #FF6D43;
+}
+.navbar .justify-content-end a:hover.solutions-hover {
+  display: block;
+}
+.navbar .justify-content-end #solution:hover .solutions-hover {
+  display: block;
+}
+.navbar ul.nav > li {
+  padding: 25px 0px;
+  z-index: 3;
+}
+.navbar ul.nav > li a + div {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 100%;
+}
+.navbar ul.nav > li:hover > div {
+  display: block;
+  border-top: 1px solid black;
+}
+.solution-hover {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.industries-hover {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.news-hover {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.about-us-hover {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.careers-hover {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.solutions-hover ul li {
+  list-style: none;
+}
+.solutions-hover ul li a {
+  text-decoration: none;
+  color: black;
+}
+.solutions-hover ul li a:hover {
+  border-bottom: 3px solid #ff6d43;
+}
+
+@media (max-width: 992px) {
+  .collapse:not(.show) {
+    text-align: right;
+  }
+}/*# sourceMappingURL=header.css.map */

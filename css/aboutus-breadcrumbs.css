@@ -1,0 +1,17 @@
+.breadcrumbs-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 40px 0;
+}
+.breadcrumbs-wrapper .breadcrumb li {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .breadcrumbs-wrapper {
+    padding: 40px;
+  }
+}/*# sourceMappingURL=aboutus-breadcrumbs.css.map */

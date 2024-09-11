@@ -1,0 +1,67 @@
+.btn-outline-primary{
+    color: black;
+    border: 1px solid #002d3c;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-partners{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+    button:hover{
+        background: #002d3c;
+        color: white;
+
+        .slanting-arrow{
+            filter: brightness(1);
+        }
+    }
+}
+
+.investor-details{
+    .btn-outline-light{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .slanting-arrow{
+        filter: brightness(1);
+    }
+
+    button:hover{
+        .slanting-arrow{
+            filter: brightness(0);
+        }
+    }
+}
+
+.leadership-bg{
+    button:hover{
+        background: #002d3c;
+
+        .slanting-arrow{
+            filter: brightness(1);
+        }
+    }
+
+}
+
+.solutions-card-contents{
+    button:hover{
+        color: white;
+        background: #002d3c;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+
+        .slanting-arrow{
+            filter: brightness(1);
+        }
+    }    
+}

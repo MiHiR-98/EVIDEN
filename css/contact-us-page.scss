@@ -1,0 +1,327 @@
+.get-in-touch-form {
+  .form-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #002d3c;
+
+    .form-toggle-button{
+      cursor: pointer;
+    }
+
+    h4 {
+      color: white;
+      font-weight: normal;
+    }
+  }
+
+  form {
+    background: #ececed;
+    padding: 20px;
+
+    textarea {
+      resize: none;
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #f0f1f8;
+      border-radius: 20px;
+      box-shadow: 0px 1px 1px 0px #00000026;
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    sup {
+      color: #ed4554;
+      font-size: 20px;
+      top: 0;
+    }
+
+    label {
+      display: block;
+      padding-bottom: 15px;
+    }
+
+    select,
+    input {
+      width: 50%;
+      border: 1px solid #f0f1f8;
+      border-radius: 20px;
+      box-shadow: 0px 1px 1px 0px #00000026;
+      padding: 10px 20px;
+    }
+
+    button {
+      background: #ffffff;
+      border: 1px solid #f0f1f8;
+      border-radius: 20px;
+      box-shadow: 0px 1px 1px 0px #00000026;
+      padding: 10px 20px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .form-check {
+      padding: 0;
+
+      .form-check-input {
+        margin: 0;
+        padding: 10px;
+        width: initial;
+        border: 1px solid #000000;
+        border-radius: 0;
+      }
+
+      .form-check-label {
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+.contact-and-location-details {
+  h4 {
+    font-weight: bold;
+  }
+
+  p {
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .contact-number {
+    max-width: 300px;
+
+    .telephone-numbers{
+      display: flex;
+      column-gap: 20px;
+    }
+
+    .contact-number-heading {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .all-office-locations {
+    .all-office-locations-link {
+      padding-top: 30px;
+
+      a {
+        background: #002d3c;
+        padding: 15px 20px;
+        color: #ffffff;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.flip {
+  transform: rotate(-180deg);
+}
+
+.accordion{
+  border: 0;
+
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .contact-details ul{
+    list-style-type: none;
+    font-size: 15px;
+  }
+
+  .accordion-item:first-of-type>.accordion-header .accordion-button{
+    border-radius: initial;
+  }
+
+  .accordion-item{
+    border: 0;
+    
+    .accordion-body{
+      background: #ececed;
+      padding: 20px;
+      
+        .form-heading {
+      
+          h4 {
+            color: white;
+            font-weight: normal;
+          }
+        }
+      
+        form {
+
+          textarea {
+            resize: none;
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #f0f1f8;
+            border-radius: 20px;
+            box-shadow: 0px 1px 1px 0px #00000026;
+          }
+      
+          p {
+            font-size: 25px;
+            font-weight: bold;
+          }
+      
+          sup {
+            color: #ed4554;
+            font-size: 20px;
+            top: 0;
+          }
+      
+          label {
+            display: block;
+            padding-bottom: 15px;
+          }
+      
+          select,
+          input {
+            width: 50%;
+            border: 1px solid #f0f1f8;
+            border-radius: 20px;
+            box-shadow: 0px 1px 1px 0px #00000026;
+            padding: 10px 20px;
+          }
+      
+          button {
+            color: #000;
+            background: #ffffff;
+            border: 1px solid #f0f1f8;
+            border-radius: 20px;
+            box-shadow: 0px 1px 1px 0px #00000026;
+            padding: 10px 20px;
+      
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+          }
+      
+          .form-check {
+            padding: 0;
+      
+            .form-check-input {
+              margin: 0;
+              padding: 10px;
+              width: initial;
+              border: 1px solid #000000;
+              border-radius: 0;
+            }
+      
+            .form-check-label {
+              padding: 0 30px;
+            }
+          }
+        }
+      
+      
+      .contact-and-location-details {
+        h4 {
+          font-weight: bold;
+        }
+      
+        p {
+          white-space: nowrap;
+          margin: 0;
+        }
+      
+        a {
+          text-decoration: none;
+          color: #000000;
+        }
+      
+        .contact-number {
+          max-width: 300px;
+      
+          .contact-number-heading {
+            position: relative;
+      
+            img {
+              position: absolute;
+              top: 10%;
+              left: 30%;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      
+        .all-office-locations {
+          .all-office-locations-link {
+            padding-top: 30px;
+      
+            a {
+              background: #002d3c;
+              padding: 15px 20px;
+              color: #ffffff;
+              border-radius: 20px;
+            }
+          }
+        }
+      }
+      
+    }
+    
+    button{
+      background: #002d3c;
+      color: #ffffff;
+      font-weight: normal;
+
+    }
+
+    .accordion-button::after{
+      background: none;
+      height: 10px;
+      width: 10px;
+      border-left: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff;
+      transform: rotate(-45deg);
+    }
+
+    .accordion-button:focus{
+      box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed)::after{
+      transform: rotate(135deg);
+    }
+
+  }
+  .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    border-radius: initial;
+  }
+}
+
+
+
+.email-and-contact-content{
+  .email-and-contact-content-heading{
+
+    h4{
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.investors {
+  background: #002D3C;
+  padding: 15px;
+  border-radius: 20px;
+}
+.investors .investor-details {
+  min-height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=investors.css.map */

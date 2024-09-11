@@ -1,0 +1,139 @@
+.aboutus-statscontainer{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 0 auto;
+
+    div{
+        width: 100%;
+    }
+
+    .aboutus-stats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        div{
+            border-bottom: 1px solid black;
+        }
+
+        p{
+            margin: 0;
+        }
+
+        .aboutus-patent{
+            text-align: right;
+        }
+
+        .aboutus-revenue{
+            text-align: right;
+        }
+    }
+
+    .industryimages{
+        position: relative;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        // width: 355px;
+
+        .girl-photo{
+            position: absolute;
+            width: calc(100% - 40px);
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .aboutus-statscontainer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .girl-photo{
+        width: auto !important;
+        right: 40px !important;
+    }
+
+    .industryimages{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .girl-photo{
+        // width: auto !important;
+        right: 0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+// .aboutus-evidendetails {
+//     padding: 60px 20px;
+//     max-width: 1400px;
+//     margin: 0 auto; /* Center align on larger screens */
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     gap: 20px;
+// }
+
+// .aboutus-industrydetails {
+//     flex: 1 1 400px; /* Adjust width as needed */
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: center; /* Center items horizontally */
+//     max-width: 400px; /* Limit width for smaller screens */
+//     width: 100%; /* Ensure full width on smaller screens */
+//     border-bottom: 1px solid black; /* Moved border style to .aboutus-industrydetails */
+//     p {
+//         margin: 0;
+//     }
+//     .aboutus-patent, .aboutus-revenue {
+//         text-align: right;
+//     }
+// }
+
+// .industryimages {
+//     position: relative;
+//     min-width: 355px;
+//     display: inline-flex;
+//     flex-direction: column;
+//     align-items: center; /* Center items horizontally */
+//     img {
+//         max-width: 100%;
+//         height: auto;
+//     }
+//     .girl-photo {
+//         position: absolute;
+//         left: 40px;
+//         top: 40px;
+//     }
+// }
+
+// /* Media query for responsiveness */
+// @media (max-width: 992px) {
+//     .aboutus-evidendetails {
+//         padding: 40px 10px; /* Adjust padding as needed */
+//     }
+//     .aboutus-industrydetails, .industryimages {
+//         flex: 1 1 100%; /* Full width on smaller screens */
+//         margin-bottom: 20px; /* Spacing between items */
+//     }
+// }

@@ -1,0 +1,71 @@
+.scroll-icon{
+    background: #FFFFFF66;
+    border-radius: 20px;
+    padding: 0 20px;
+    width: 240px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    position: absolute;
+    bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .swiper-button-prev, .swiper-button-next{
+      position: static;
+      color: black;
+      transform: translateY(11px);
+      max-height: 100%;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after{
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .swiper-pagination{
+      bottom: auto !important;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 20px;
+
+    
+      .swiper-pagination-bullet {
+        background: black;
+        opacity: 1;
+        width: 16px;
+        border-radius: 4px;
+
+        &.swiper-pagination-bullet-active{
+          background: white !important;
+        }
+
+      } 
+    }
+
+    
+
+    .carousel-indicators{
+      margin: 0;
+      bottom: auto;
+      column-gap: 7px;
+
+      .active{
+        background-color: white ;
+      }
+
+      button{
+        height: 10px;
+        border: 0;
+        border-radius: 5px;
+        background-color: black;
+        opacity: 1;
+      }
+    }
+
+  }

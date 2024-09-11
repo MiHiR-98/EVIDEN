@@ -1,0 +1,23 @@
+.performance-reports {
+    background: #002d3c;
+    color: white;
+
+    .reports-details {
+        padding-top: 56px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 475px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        
+        .btn-outline-light:hover {
+        color: #fff;
+        background: #000;
+        }
+    }
+}
+  
+ 
+  

@@ -1,0 +1,51 @@
+.solutions-bg-gray {
+  background: rgba(236, 236, 237, 0.5019607843);
+  padding-top: 25px;
+}
+.solutions-bg-gray .text-center {
+  text-align: left !important;
+  padding: 20px 0;
+}
+.solutions-bg-gray .row {
+  row-gap: 20px;
+}
+.solutions-bg-gray .image {
+  max-width: 100%;
+}
+.solutions-bg-gray .solutions-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.solutions-bg-gray .solutions-details {
+  padding: 20px;
+  margin: 0 20px;
+  margin-top: -52px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+}
+.solutions-bg-gray .solutions-details p {
+  padding: 12px 0;
+}
+.solutions-bg-gray .btn-outline-primary {
+  --bs-btn-color: black;
+  --bs-btn-border-color: #002d3c;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #002d3c;
+  --bs-btn-hover-border-color: #002d3c;
+  --bs-btn-active-bg: #002d3c;
+  --bs-btn-active-border-color: #002d3c;
+  --bs-btn-disabled-color: #002d3c;
+  --bs-btn-disabled-border-color: #002d3c;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.solutions-bg-gray .slanting-arrow {
+  width: 9px;
+}/*# sourceMappingURL=solutions.css.map */

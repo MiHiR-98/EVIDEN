@@ -1,0 +1,61 @@
+.aboutus-statscontainer {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin: 0 auto;
+}
+.aboutus-statscontainer div {
+  width: 100%;
+}
+.aboutus-statscontainer .aboutus-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutus-statscontainer .aboutus-stats div {
+  border-bottom: 1px solid black;
+}
+.aboutus-statscontainer .aboutus-stats p {
+  margin: 0;
+}
+.aboutus-statscontainer .aboutus-stats .aboutus-patent {
+  text-align: right;
+}
+.aboutus-statscontainer .aboutus-stats .aboutus-revenue {
+  text-align: right;
+}
+.aboutus-statscontainer .industryimages {
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+.aboutus-statscontainer .industryimages .girl-photo {
+  position: absolute;
+  width: calc(100% - 40px);
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .aboutus-statscontainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .girl-photo {
+    width: auto !important;
+    right: 40px !important;
+  }
+  .industryimages {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 430px) {
+  .girl-photo {
+    right: 0 !important;
+  }
+}/*# sourceMappingURL=aboutus-evidendetails.css.map */

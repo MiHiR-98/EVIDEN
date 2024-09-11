@@ -1,0 +1,45 @@
+.clients-bg-gray{
+    background: #ececed80;
+    padding-top: 25px;
+
+    .clients-content {
+        background: white;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        border-radius: 20px;
+    }
+      
+    .clients-review-front {
+        padding: 20px;
+    }
+      
+    .quote-orange {
+        color: #ff6d43;
+    }
+      
+    .clients-review-hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background: url("../images/cloud-database.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-height: 100%;
+        opacity: 0;
+        border-radius: 20px;
+        transition: 0.5s linear;
+    }
+      
+    .clients-review-hover:hover {
+        opacity: 1;
+    }
+      
+}

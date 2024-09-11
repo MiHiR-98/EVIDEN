@@ -1,0 +1,32 @@
+.interested-subjects {
+  text-align: center;
+}
+.interested-subjects .interested-subjects-content {
+  max-width: 742px;
+  margin: auto;
+}
+.interested-subjects .interested-subjects-content .interested-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.interested-subjects .interested-subjects-content .interested-buttons .btn {
+  border-radius: 20px;
+  font-weight: 600;
+}
+.interested-subjects .interested-subjects-content .interested-buttons .btn-outline-secondary {
+  color: black;
+  background: #ececed;
+}
+.interested-subjects .interested-subjects-content .interested-buttons .btn-outline-secondary:hover {
+  color: white;
+  background: #002D3C;
+}
+.interested-subjects .interested-subjects-content .proceed-button {
+  margin-top: 40px;
+}
+.interested-subjects .interested-subjects-content .proceed-button .btn {
+  border-radius: 16px;
+  font-weight: 600;
+}/*# sourceMappingURL=interested-subjects.css.map */

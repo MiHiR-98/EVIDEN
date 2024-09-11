@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial, sans-serif";
+  background: grey;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.container {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+  background: white;
+}
+table thead.header {
+  padding: 20px;
+  /* background: green; */
+  color: white;
+}
+table thead.header tbody {
+  padding: 20px;
+}
+table thead.header tr, table thead.header td {
+  text-align: center;
+  background: green;
+  border-style: none;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+  margin: 10px 0;
+}
+
+.content {
+  padding: 20px;
+}
+.content p {
+  font-size: large;
+}
+.content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+th {
+  background: lightgray;
+}
+
+.button {
+  color: white;
+  background: green;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: large;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: gray;
+}
+
+.footer P {
+  font-size: medium;
+}
+
+.footer a {
+  color: green;
+  text-decoration: none;
+}/*# sourceMappingURL=emailtest-style.css.map */

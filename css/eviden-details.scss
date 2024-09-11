@@ -1,0 +1,31 @@
+.section-eviden-details {
+    background: url("../images/how-we\'re-doing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    padding: 40px;
+
+    .how-we-are-doing {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+      
+    .how-we-are-doing-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .how-we-are-doing-details div{
+        border-left: 2px solid #FF6D43;
+        padding-left: 21px;
+    }
+
+    .how-we-are-doing-details div p{
+        margin: 0;
+    }
+}
+  
+ 

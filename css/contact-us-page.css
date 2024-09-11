@@ -1,0 +1,252 @@
+.get-in-touch-form .form-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #002d3c;
+}
+.get-in-touch-form .form-heading .form-toggle-button {
+  cursor: pointer;
+}
+.get-in-touch-form .form-heading h4 {
+  color: white;
+  font-weight: normal;
+}
+.get-in-touch-form form {
+  background: #ececed;
+  padding: 20px;
+}
+.get-in-touch-form form textarea {
+  resize: none;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+}
+.get-in-touch-form form p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.get-in-touch-form form sup {
+  color: #ed4554;
+  font-size: 20px;
+  top: 0;
+}
+.get-in-touch-form form label {
+  display: block;
+  padding-bottom: 15px;
+}
+.get-in-touch-form form select,
+.get-in-touch-form form input {
+  width: 50%;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+  padding: 10px 20px;
+}
+.get-in-touch-form form button {
+  background: #ffffff;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.get-in-touch-form form .form-check {
+  padding: 0;
+}
+.get-in-touch-form form .form-check .form-check-input {
+  margin: 0;
+  padding: 10px;
+  width: initial;
+  border: 1px solid #000000;
+  border-radius: 0;
+}
+.get-in-touch-form form .form-check .form-check-label {
+  padding: 0 30px;
+}
+
+.contact-and-location-details h4 {
+  font-weight: bold;
+}
+.contact-and-location-details p {
+  white-space: nowrap;
+  margin: 0;
+}
+.contact-and-location-details a {
+  text-decoration: none;
+  color: #000000;
+}
+.contact-and-location-details .contact-number {
+  max-width: 300px;
+}
+.contact-and-location-details .contact-number .telephone-numbers {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.contact-and-location-details .contact-number .contact-number-heading {
+  position: relative;
+}
+.contact-and-location-details .contact-number .contact-number-heading img {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-and-location-details .all-office-locations .all-office-locations-link {
+  padding-top: 30px;
+}
+.contact-and-location-details .all-office-locations .all-office-locations-link a {
+  background: #002d3c;
+  padding: 15px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.flip {
+  transform: rotate(-180deg);
+}
+
+.accordion {
+  border: 0;
+}
+.accordion a {
+  text-decoration: none;
+  color: #000000;
+}
+.accordion .contact-details ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+.accordion .accordion-item:first-of-type > .accordion-header .accordion-button {
+  border-radius: initial;
+}
+.accordion .accordion-item {
+  border: 0;
+}
+.accordion .accordion-item .accordion-body {
+  background: #ececed;
+  padding: 20px;
+}
+.accordion .accordion-item .accordion-body .form-heading h4 {
+  color: white;
+  font-weight: normal;
+}
+.accordion .accordion-item .accordion-body form textarea {
+  resize: none;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+}
+.accordion .accordion-item .accordion-body form p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.accordion .accordion-item .accordion-body form sup {
+  color: #ed4554;
+  font-size: 20px;
+  top: 0;
+}
+.accordion .accordion-item .accordion-body form label {
+  display: block;
+  padding-bottom: 15px;
+}
+.accordion .accordion-item .accordion-body form select,
+.accordion .accordion-item .accordion-body form input {
+  width: 50%;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+  padding: 10px 20px;
+}
+.accordion .accordion-item .accordion-body form button {
+  color: #000;
+  background: #ffffff;
+  border: 1px solid #f0f1f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1490196078);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.accordion .accordion-item .accordion-body form .form-check {
+  padding: 0;
+}
+.accordion .accordion-item .accordion-body form .form-check .form-check-input {
+  margin: 0;
+  padding: 10px;
+  width: initial;
+  border: 1px solid #000000;
+  border-radius: 0;
+}
+.accordion .accordion-item .accordion-body form .form-check .form-check-label {
+  padding: 0 30px;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details h4 {
+  font-weight: bold;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details p {
+  white-space: nowrap;
+  margin: 0;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details a {
+  text-decoration: none;
+  color: #000000;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details .contact-number {
+  max-width: 300px;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details .contact-number .contact-number-heading {
+  position: relative;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details .contact-number .contact-number-heading img {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details .all-office-locations .all-office-locations-link {
+  padding-top: 30px;
+}
+.accordion .accordion-item .accordion-body .contact-and-location-details .all-office-locations .all-office-locations-link a {
+  background: #002d3c;
+  padding: 15px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.accordion .accordion-item button {
+  background: #002d3c;
+  color: #ffffff;
+  font-weight: normal;
+}
+.accordion .accordion-item .accordion-button::after {
+  background: none;
+  height: 10px;
+  width: 10px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transform: rotate(-45deg);
+}
+.accordion .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+.accordion .accordion-item .accordion-button:not(.collapsed)::after {
+  transform: rotate(135deg);
+}
+.accordion .accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+  border-radius: initial;
+}
+
+.email-and-contact-content .email-and-contact-content-heading h4 {
+  color: #000000;
+}/*# sourceMappingURL=contact-us-page.css.map */

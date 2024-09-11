@@ -1,0 +1,31 @@
+.navbar-sticky {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-sticky div.navbar-sticky {
+  position: fixed;
+  top: 0;
+}
+.navbar-sticky a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-sticky a:hover {
+  background: #ECECED;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .navbar-sticky {
+    overflow-x: scroll;
+  }
+  .navbar-sticky a {
+    min-width: 200px;
+  }
+}/*# sourceMappingURL=aboutus-navbar.css.map */
